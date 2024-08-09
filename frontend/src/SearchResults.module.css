@@ -1,0 +1,27 @@
+/* src/SearchResults.module.css */
+.searchResults {
+    margin-top: 20px;
+}
+
+.resultList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resultItem {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    .resultItem {
+      /* Example: Adjust font size, padding, etc. */
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  

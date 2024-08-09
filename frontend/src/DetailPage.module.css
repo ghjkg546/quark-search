@@ -1,0 +1,27 @@
+/* DetailPage.module.css */
+
+.detailContainer {
+  max-width: 100%; /* Adjust maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.detailTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detailContent {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  p{ word-wrap:break-word; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .detailContent {
+    padding: 10px;
+  }
+}
